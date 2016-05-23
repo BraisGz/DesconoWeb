@@ -39,6 +39,15 @@ body {
 	position: relative;
 	top: 80em;
 }
+.historia-title {
+	position: relative;
+	top: 78em;
+	width: 10em;
+	margin: 0 auto;
+}
+.historia-title img {
+	width: 10em;
+}
 .historia img {
 	width: 50%;
 	float:left;
@@ -53,6 +62,15 @@ body {
 	top: 120em;
 	float: left;
 	text-align: center;
+}
+.miembros-title {
+	position: relative;
+	top: 118em;
+	width: 10em;
+	margin: 0 auto;
+}
+.miembros-title img {
+	width: 10em;
 }
 .member img {
 	width: 33%;
@@ -77,6 +95,15 @@ body {
 	top:160em;
 	width: 100%;
 	float: left;
+}
+.galeria-title {
+	position: relative;
+	top: 158em;
+	width: 10em;
+	margin: 0 auto;
+}
+.galeria-title img {
+	width: 8em;
 }
 .gallery img {
 	width: 33%
