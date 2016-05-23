@@ -111,3 +111,24 @@ body {
 .gallery img:hover {
 	opacity: 0.3;
 }
+.videos {
+	position: relative;
+	top:200em;
+	width: 100%;
+	float: left;
+}
+.videos-title {
+	position: relative;
+	top:198em;
+	width: 10em;
+	margin: 0 auto
+}
+.videos-title img {
+	width: 8em;
+}
+.videos iframe {
+	width: 33%;
+}
+.videos iframe:hover {
+	opacity: 0.3;
+}
