@@ -34,17 +34,17 @@ body {
 	margin-right: 0.2em;
 }
 .historia {
-	width: 60em;
+	width: 100%;
 	margin:0 auto;
 	position: relative;
 	top: 80em;
 }
 .historia img {
-	width: 30em;
+	width: 50%;
 	float:left;
 }
 .historia p {
-	width: 30em;
+	width: 50%;
 	float: left;
 }
 .member {
@@ -71,4 +71,16 @@ body {
 .member-text a {
 	color:white;
 	text-decoration: none;
+}
+.gallery {
+	position: relative;
+	top:160em;
+	width: 100%;
+	float: left;
+}
+.gallery img {
+	width: 33%
+}
+.gallery img:hover {
+	opacity: 0.3;
 }
