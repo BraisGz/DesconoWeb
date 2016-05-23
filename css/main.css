@@ -132,3 +132,40 @@ body {
 .videos iframe:hover {
 	opacity: 0.3;
 }
+.gira-title {
+	position: relative;
+	top:238em;
+	width: 10em;
+	margin: 0 auto;
+}
+.gira-title img {
+	width: 6em;
+}
+.gira {
+	position: relative;
+	top: 240em;
+	width: 100%;
+	text-align: center;
+}
+.gira p {
+	text-align: center;
+	font-size: 30px;
+}
+.contacto-title {
+	position: relative;
+	top:278em;
+	width: 20em;
+	margin: 0 auto;
+}
+.contacto-title img {
+	width: 15em;
+}
+.contacto {
+	position: relative;
+	top:280em;
+	width: 100%;
+	margin: 0 auto;
+}
+.contacto img {
+	width: 5em;
+}
