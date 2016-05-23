@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+body {
+	background-color: black;
+	text-align: center;
+	background-image: url(pattern.png);
+	background-size: 30em;
+	font-family: 'Dosis', sans-serif;
+	font-size: 24px;
+	color:white;
+}
+.logo {
+	margin-top: 10em;
+}
+@media (max-width: 800px) {
+	.logo img {
+		width: 15em;
+	}
+}
+.arrow img {
+	margin-top: 5em;
+	width: 4em;
+}
+.menu {
+	position: relative;
+	top:40em;
+	width: 40em;
+	margin:0 auto;
+	color: white;
+}
+.menu a {
+	color:white;
+	text-decoration: none;
+	margin-left: 0.2em;
+	margin-right: 0.2em;
+}
+.historia {
+	width: 60em;
+	margin:0 auto;
+	position: relative;
+	top: 80em;
+}
+.historia img {
+	width: 30em;
+	float:left;
+}
+.historia p {
+	width: 30em;
+	float: left;
+}
+.member {
+	width: 100%;
+	position: relative;
+	top: 120em;
+	float: left;
+	text-align: center;
+}
+.member img {
+	width: 33%;
+}
+.member-text {
+	width: 100%;
+	position: relative;
+	top: 120em;
+	float: left;
+	text-align: center;
+}
+.member-text p {
+	width: 33%;
+	float: left;
+}
+.member-text a {
+	color:white;
+	text-decoration: none;
+}
