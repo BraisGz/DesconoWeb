@@ -131,7 +131,8 @@ body {
 	width: 8em;
 }
 .videos iframe {
-	width: 33%;
+	width: 45%;
+
 }
 .videos iframe:hover {
 	opacity: 0.3;
@@ -171,7 +172,8 @@ body {
 	margin: 0 auto;
 }
 .contacto img {
-	width: 5em;
+	width: 3em;
+	margin: 1em;
 }
 .rights {
 	position: relative;
