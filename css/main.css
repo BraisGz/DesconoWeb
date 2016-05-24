@@ -20,6 +20,7 @@ body {
 	margin-top: 5em;
 	width: 4em;
 }
+/**
 .menu {
 	position: relative;
 	top:40em;
@@ -33,15 +34,16 @@ body {
 	margin-left: 0.2em;
 	margin-right: 0.2em;
 }
+**/
 .historia {
 	width: 100%;
 	margin:0 auto;
 	position: relative;
-	top: 80em;
+	top: 20em;
 }
 .historia-title {
 	position: relative;
-	top: 78em;
+	top: 18em;
 	width: 10em;
 	margin: 0 auto;
 }
@@ -49,23 +51,25 @@ body {
 	width: 10em;
 }
 .historia img {
-	width: 50%;
+	margin-left: 10%;
+	width: 40%;
 	float:left;
 }
 .historia p {
-	width: 50%;
+	margin-right: 10%;
+	width: 40%;
 	float: left;
 }
 .member {
 	width: 100%;
 	position: relative;
-	top: 120em;
+	top: 40em;
 	float: left;
 	text-align: center;
 }
 .miembros-title {
 	position: relative;
-	top: 118em;
+	top: 38em;
 	width: 10em;
 	margin: 0 auto;
 }
@@ -78,7 +82,7 @@ body {
 .member-text {
 	width: 100%;
 	position: relative;
-	top: 120em;
+	top: 40em;
 	float: left;
 	text-align: center;
 }
@@ -92,13 +96,13 @@ body {
 }
 .gallery {
 	position: relative;
-	top:160em;
+	top:60em;
 	width: 100%;
 	float: left;
 }
 .galeria-title {
 	position: relative;
-	top: 158em;
+	top: 58em;
 	width: 10em;
 	margin: 0 auto;
 }
@@ -113,13 +117,13 @@ body {
 }
 .videos {
 	position: relative;
-	top:200em;
+	top:80em;
 	width: 100%;
 	float: left;
 }
 .videos-title {
 	position: relative;
-	top:198em;
+	top:78em;
 	width: 10em;
 	margin: 0 auto
 }
@@ -134,7 +138,7 @@ body {
 }
 .gira-title {
 	position: relative;
-	top:238em;
+	top:98em;
 	width: 10em;
 	margin: 0 auto;
 }
@@ -143,7 +147,7 @@ body {
 }
 .gira {
 	position: relative;
-	top: 240em;
+	top: 100em;
 	width: 100%;
 	text-align: center;
 }
@@ -153,7 +157,7 @@ body {
 }
 .contacto-title {
 	position: relative;
-	top:278em;
+	top:118em;
 	width: 20em;
 	margin: 0 auto;
 }
@@ -162,11 +166,21 @@ body {
 }
 .contacto {
 	position: relative;
-	top:280em;
+	top:120em;
 	width: 100%;
 	margin: 0 auto;
 }
 .contacto img {
 	width: 5em;
 }
-
+.rights {
+	position: relative;
+	top: 140em;
+	width: 50%;
+	margin: 0 auto;
+}
+.rights p {
+	width: 30em;
+	margin: 0 auto;
+	color:white;
+}
