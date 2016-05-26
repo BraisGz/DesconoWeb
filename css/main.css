@@ -51,14 +51,27 @@ body {
 	padding-left: 1em;
 	transition: all 1s ease-out;
 }
+.menu-mobile {
+	text-align: center;
+	display: none;
+}
+.menu-mobile a {
+	text-decoration: none;
+	color:white;
+	font-size: 15px;
+}
 
 @media (max-width: 800px) {
 	.menu {
 		width: 70%;
+		display: none;
 	}
 	.menu a {
 		display: block;
 		font-size: 18px;
+	}
+	.menu-mobile {
+		display: block;
 	}
 }
 .historia {
@@ -166,6 +179,11 @@ body {
 }
 .gallery img:hover {
 	opacity: 0.3;
+}
+@media (max-width: 800px){
+	.gallery img {
+		width: 45%;
+	}
 }
 .videos {
 	width: 100%;
