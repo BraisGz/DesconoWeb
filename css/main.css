@@ -60,7 +60,9 @@ body {
 	color:white;
 	font-size: 15px;
 }
-
+.menu-mobile img {
+	width: 3em;
+}
 @media (max-width: 800px) {
 	.menu {
 		width: 70%;
