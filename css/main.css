@@ -9,24 +9,34 @@ body {
 	color:white;
 }
 .logo {
-	margin-top: 10em;
+	margin-top: 5em;
+	animation: fadein 4s;
+}
+@keyframes fadein {
+	from {
+		opacity: 0;
+		transform:scale(0.5);
+	}
+	to {
+		opacity: 1;
+		transform:scale(1);
+	}
 }
 @media (max-width: 800px) {
 	.logo img {
 		width: 8em;
 	}
+	.logo {
+		margin-top: 2em;
+	}
 }
-.arrow img {
-	margin-top: 5em;
-	width: 4em;
-}
-/**
 .menu {
 	position: relative;
-	top:40em;
+	top:2em;
 	width: 40em;
 	margin:0 auto;
 	color: white;
+	animation: fadein 4s;
 }
 .menu a {
 	color:white;
@@ -34,16 +44,30 @@ body {
 	margin-left: 0.2em;
 	margin-right: 0.2em;
 }
-**/
+.menu a:hover {
+	background-color: white;
+	color:black;
+	padding-right: 1em;
+	padding-left: 1em;
+	transition: all 1s ease-out;
+}
+
+@media (max-width: 800px) {
+	.menu {
+		width: 70%;
+	}
+	.menu a {
+		display: block;
+		font-size: 18px;
+	}
+}
 .historia {
 	width: 100%;
 	margin:0 auto;
 	position: relative;
-	top: 20em;
 }
 .historia-title {
 	position: relative;
-	top: 18em;
 	width: 10em;
 	margin: 0 auto;
 }
@@ -81,14 +105,10 @@ body {
 
 .member {
 	width: 100%;
-	position: relative;
-	top: 40em;
 	float: left;
 	text-align: center;
 }
 .miembros-title {
-	position: relative;
-	top: 38em;
 	width: 10em;
 	margin: 0 auto;
 }
@@ -100,8 +120,6 @@ body {
 }
 .member-text {
 	width: 100%;
-	position: relative;
-	top: 40em;
 	float: left;
 	text-align: center;
 }
@@ -133,14 +151,10 @@ body {
 	}
 }
 .gallery {
-	position: relative;
-	top:60em;
 	width: 100%;
 	float: left;
 }
 .galeria-title {
-	position: relative;
-	top: 58em;
 	width: 10em;
 	margin: 0 auto;
 }
@@ -154,14 +168,10 @@ body {
 	opacity: 0.3;
 }
 .videos {
-	position: relative;
-	top:80em;
 	width: 100%;
 	float: left;
 }
 .videos-title {
-	position: relative;
-	top:78em;
 	width: 10em;
 	margin: 0 auto
 }
@@ -176,8 +186,6 @@ body {
 	opacity: 0.3;
 }
 .gira-title {
-	position: relative;
-	top:98em;
 	width: 10em;
 	margin: 0 auto;
 }
@@ -185,8 +193,6 @@ body {
 	width: 6em;
 }
 .gira {
-	position: relative;
-	top: 100em;
 	width: 100%;
 	text-align: center;
 }
@@ -195,8 +201,6 @@ body {
 	font-size: 24px;
 }
 .contacto-title {
-	position: relative;
-	top:118em;
 	width: 20em;
 	margin: 0 auto;
 }
@@ -204,8 +208,6 @@ body {
 	width: 15em;
 }
 .contacto {
-	position: relative;
-	top:120em;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -214,8 +216,6 @@ body {
 	margin: 1em;
 }
 .rights {
-	position: relative;
-	top: 140em;
 	width: 50%;
 	margin: 0 auto;
 }
