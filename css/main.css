@@ -201,10 +201,15 @@ body {
 }
 .videos iframe {
 	width: 45%;
-
 }
 .videos iframe:hover {
 	opacity: 0.3;
+}
+@media (max-width: 800px){
+	.videos iframe {
+		width: 90%;
+		margin: 0 auto; 
+	}
 }
 .gira-title {
 	width: 10em;
