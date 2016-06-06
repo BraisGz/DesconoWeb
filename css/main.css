@@ -77,7 +77,7 @@ body {
 	z-index: -9999;
 	top: -1em;
 	left: -1em;
-	width: 120%;
+	width: 100%;
 }
 .gallery-mobile img {
 	float: left;
