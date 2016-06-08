@@ -40,18 +40,23 @@ body {
 	animation: fadein 4s;
 }
 .menu a {
-	color:white;
 	text-decoration: none;
 	margin-left: 0.2em;
 	margin-right: 0.2em;
-}
-.menu a:hover {
 	background-color: white;
 	color:black;
 	padding-top: 1em;
 	padding-bottom: 1em;
 	padding-right: 3em;
 	padding-left: 3em;
+}
+.menu a:hover {
+	background-color: white;
+	color:black;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	padding-right: 4em;
+	padding-left: 4em;
 	transition: all 1s ease-out;
 }
 @media (max-width: 800px) {
